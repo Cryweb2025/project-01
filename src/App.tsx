@@ -1,7 +1,7 @@
 import "./App.css";
-import AgeInfo from "./components/AgeInfo/AgeInfo";
+// import AgeInfo from "./components/AgeInfo/AgeInfo";
 import DogCard from "./components/DogCard/DogCard";
-import Goodbye from "./components/Goodbye/Goodbye";
+// import Goodbye from "./components/Goodbye/Goodbye";
 import Greeting from "./components/Greeting/Greeting";
 import ProfileCard from "./components/ProfileCard/ProfileCard";
 

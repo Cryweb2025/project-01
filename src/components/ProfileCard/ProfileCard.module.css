@@ -1,0 +1,18 @@
+.container {
+  background-color: lightcoral;
+  width: 500px;
+  padding: 24px;
+  border-radius: 14px;
+}
+
+.container > img {
+  height: 250px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.userDescription {
+    font-style: italic;
+}

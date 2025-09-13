@@ -1,15 +1,19 @@
 import "./App.css";
+//import Counter from "./components/Counter/Counter";
 // import AgeInfo from "./components/AgeInfo/AgeInfo";
-import DogCard from "./components/DogCard/DogCard";
+//import DogCard from "./components/DogCard/DogCard";
 // import Goodbye from "./components/Goodbye/Goodbye";
-import Greeting from "./components/Greeting/Greeting";
-import ProfileCard from "./components/ProfileCard/ProfileCard";
+//import Greeting from "./components/Greeting/Greeting";
+//import PersonalGreeting from "./components/PersonalGreeting/PersonalGreeting";
+//import ProfileCard from "./components/ProfileCard/ProfileCard";
+import SpaceMissionForm from "./components/SpaceMissionForm/SpaceMissionForm";
 
 function App() {
   return (
     <>
-      {/* <p>Hello, React</p> */}
+      {/* <PersonalGreeting />
       <Greeting />
+      <Counter />
       <DogCard />
       <ProfileCard
         avatar={
@@ -19,12 +23,13 @@ function App() {
         description={
           "Figure: a white, faceless human silhouette—oval head with no features, short neck, broad rounded shoulders; torso as a rounded trapezoid—centered on a blue gradient square background."
         }
-      />
+      /> */}
       {/* Комментарий
       <Goodbye name={"Bob"}/>
       <Goodbye name={"John"}/>
       <AgeInfo age={23} name={"Andrey"} />
       <AgeInfo age={26} name={"Fred"}/> */}
+      <SpaceMissionForm />
     </>
   );
 }
